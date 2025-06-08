@@ -2,12 +2,11 @@
 
 let soma = 0;
 let contador = 0;
-let resposta = "S"
 
 do {
     let num = parseInt(prompt("Digite um número: "));
     soma += num;
 
     resposta = prompt("Quer continuar? [S/N]");
-} while (resposta == "S");
+} while (resposta != "N");
 console.log("A soma de todos os valores digitados é " + soma);
