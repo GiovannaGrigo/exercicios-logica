@@ -11,4 +11,8 @@ do {
     }
     contador++;
 } while (contador <= num);
-console.log(`Existem ${contDiv} valores divisiveis.`);
+if (contDiv > 2) {
+    console.log(`O número ${num} não é primo`);
+} else {
+    console.log(`O número ${num} é primo`);
+}
